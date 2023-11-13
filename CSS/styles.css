@@ -1,0 +1,17 @@
+* {
+    border: 1px solid red;
+  }
+  
+
+html,
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
