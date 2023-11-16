@@ -143,3 +143,47 @@ header {
   border-right: none;
   border-bottom: none;
 }
+
+.mainContent {
+  display: grid;
+  grid-template: 1fr 1fr / 2fr 1fr;
+  background-color: rgb(240, 240, 240);
+}
+
+#yourProjects {
+  width: 100%;
+  height: 5%;
+  font-size: 35px;
+  padding-top: 75px;
+  margin-left: 20px;
+}
+
+.projectsDiv {
+  grid-row: 1 / 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 200px;
+}
+
+.projectTile {
+  background-color: white;
+  width: 25%;
+  height: 40%;
+  padding: 15px;
+  border-radius: 15px;
+  border-left: 10px solid rgb(157, 157, 57);
+  display: flex;
+  flex-direction: column;
+}
+
+.projectTile > p {
+  height: 50%;
+}
+
+.projectTile > div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+}
