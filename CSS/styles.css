@@ -1,5 +1,5 @@
 * {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -146,7 +146,7 @@ header {
 
 .mainContent {
   display: grid;
-  grid-template: 1fr 1fr / 2fr 1fr;
+  grid-template: 1fr 1fr / 3fr 1fr;
   background-color: rgb(240, 240, 240);
 }
 
@@ -186,4 +186,17 @@ header {
   display: flex;
   justify-content: flex-end;
   gap: 25px;
+}
+
+.announcementsTile {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.announcementsContainer {
+  background-color: white;
+  padding: 25px;
+  width: 60%;
 }
